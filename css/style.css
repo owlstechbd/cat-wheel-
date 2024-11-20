@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+li{
+     list-style: none;
+}
+h1{
+    font-family: "Raleway", serif;
+    font-size: 55px;
+    font-weight: 700;
+
+}
+h2{
+    font-family: "Raleway", serif;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+h5{
+    font-family: "Raleway", serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    width: 100%;
+    padding-top: 70px;
+    background: url(../images/header-bg.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+.header-btn a{
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.6s; /* Specify transform for smooth effect */
+    display: inline-block; /* Ensure hover effects like transform can apply */
+    text-decoration: none; /* Optional: remove underline from the link */
+    color: inherit; /* Optional: ensure text color matches design */
+   
+
+}
+
+.left-btn{
+    background: #b9d03891;
+    margin-right: 20px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    
+}
+.header-btn a:hover{
+    
+    transform: translateY(-10px);
+}
+.left-btn img{
+   width: 20px;
+   margin-bottom: 3px;
+   margin-right: 3px;
+}
+.right-btn img{
+   width: 40px;
+   margin-right: 5px;
+}
+
+.header-all-box{
+    width: 60%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.header-main h5{
+    margin: 13px 0;
+}
+.header-btn {
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 1600px) and (max-width: 2500px) {
+    .header-all-box{
+        width: 80%;
+        justify-content: center;
+         
+    }
+    .header-main{
+        padding-top: 100px;
+    }
+}
+.header-box img{
+    width: 100%;
+}
+#katzenlaufrad{
+    width: 100%;
+    padding: 100px 0;
+    background: url(../images/katzenlaufrad-bg.png)center center repeat-x;
+    background-size: cover;
+}
+.katzenlaufrad-main h2 {
+    margin-bottom: 30px;
+}
+.katzenlaufrad-main h2 span{
+    color: #B9D038;
+    font-family: "Raleway", serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.katzenlaufrad-main h5{
+    font-size: 18px;
+    margin: 25px 0;
+    font-weight: 700;
+}
+.katzenlaufrad-main ul li{
+   margin-top: 20px;
+}
+.katzenlaufrad-main ul li img{
+   width: 20px;
+   margin-right: 5px;
+}
+#kaufen{
+    width: 100%;
+    margin: 100px 0;
+}
+.kaufen-main{
+    background: #B9D038;
+    height: 300px;
+    position: relative;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.kaufen-left{
+    width: 50%;
+}
+.kaufen-left img{
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.kaufen-right{
+    width: 50%;
+}
+.kaufen-right h5{
+    font-size: 30px;
+    font-weight: 700;
+}
+.kaufen-right p{
+    margin: 10px 0 30px;
+}
+.kaufen-btn a{
+    text-decoration: none;
+    color: #B9D038;
+}
+.kaufen-btn a{
+    background: #000;
+    transition: transform 0.6s; /* Specify transform for smooth effect */
+    display: inline-block; /* Ensure hover effects like transform can apply */
+    text-decoration: none; /* Optional: remove underline from the link */
+    padding: 12px 35px;
+    border-radius: 50px;
+}
+.kaufen-btn a:hover{
+    transform: translateY(-10px);
+}
+.kaufen-btn img{
+   width: 20px;
+   margin-bottom: 3px;
+   margin-right: 3px;
+}
+#beispiel{
+    width: 100%;
+    padding: 100px 0;
+    background: url(../images/beispiel-bg.png)center center no-repeat;
+    background-size: cover;
+}
+.beispiel-main{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.beispiel-main h2 {
+    font-family: "Raleway", serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.beispiel-main h2 span{
+    font-family: "Raleway", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #B9D038;
+}
+.beispiel-main p {
+    margin-bottom: 50px ;
+}
+.video-container {
+    width: 100%;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+iframe {
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+}
+#katzenlaufrad-btm{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px ;
+    background: url(../images/katzenlaufrad-btm-bg.png)center center repeat-x;
+    background-size: cover;
+}
+.natur-box a{
+    text-decoration: none;
+    color: #000;
+}
+.natur-box-all{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.natur-box-photo {
+    width: 80%;
+    margin: 0 auto;
+}
+.natur-box-photo img{
+    width: 100%;
+}
+.sp-btn{
+    display: flex;
+    
+}
+.photo img{
+    margin-right: 5px;
+}
+.natur-btn {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.natur-btn p{
+    text-decoration: none;
+    color: #000;
+    background: #b9d03891;
+    margin-right: 20px;
+    padding: 6px 10px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.natur-btn p img{
+   width: 20px;
+   margin-bottom: 3px;
+   margin-right: 3px;
+}
+.btm-btn{
+    width: 95%;
+    background: #000;
+    padding: 7px 0;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.btm-btn p{
+   margin-bottom: 0;
+   padding: 12px 35px;
+    color: #B9D038;
+    font-weight: 600;
+    transition: .6s;
+}
+.btm-btn p img{
+    width: 20px;
+    margin-right: 5px;
+}
+.btm-btn p:hover{
+    transform: scale(1.2);
+}
+.natur-box h3{
+    font-family: "Raleway", serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+.natur-box ul li{
+    margin-top: 15px;
+}
+.natur-box ul li img{
+    width:20px ;
+}
+#footer{
+    width: 100%;
+    background: #6E8103;
+}
+.footer-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.footer-left p{
+    margin-bottom: 0;
+    color: #FFFF;
+}
+.footer-right ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.footer-right ul li{
+    margin-left: 10px;
+    color: #FFFF;
+}
+.footer-right ul li a{
+    
+    color: #FFFF;
+}

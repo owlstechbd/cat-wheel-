@@ -1,0 +1,115 @@
+@media screen and (max-width: 720px){
+    #header {
+        height: auto;
+    }
+    a.right-btn {
+        margin-top: 20px;
+    }
+    .header-all-box {
+        width: 100%;
+        position: unset;
+        transform: translate(0%, 0%);
+    }
+    .header-btn{
+        margin: 30px 0;
+    }
+    .footer-main{
+        flex-direction: column;
+    }
+    .left-btn {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .right-btn {
+        font-size: 14px;
+    }
+    .mar-top{
+        margin-top: 30px;
+    }
+    .flx-rev{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .natur-box-photo {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .natur-btn {
+        display: block;
+        text-align: center;
+    }
+    .natur-box h3 {
+        font-size: 19px;
+    }
+    .beispiel-main {
+        width: 100%;
+    }
+    .beispiel-main h2 {
+        font-size: 30px;
+    }
+    .beispiel-main h2 span {
+        font-size: 30px;
+    }
+    .katzenlaufrad-main h2 {
+        font-size: 31px;
+    }
+    .katzenlaufrad-main h2 span {
+        font-size: 31px;
+    }
+    .header-main h1{
+        font-size: 45px;
+    }
+    .header-main h5{
+        font-size: 25px;
+        margin: 15px 0;
+    }
+    .dis-no{
+        display: none;
+    }
+    .kaufen-left {
+        width: 100%;
+    }
+    .kaufen-right {
+        width: 100%;
+    }
+    .kaufen-left img {
+        width: 320px;  
+        position: unset;
+    }
+    .kaufen-main {
+        height: auto;
+        display: block;
+        padding: 0 20px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .kaufen-btn{
+        width: 100%;
+    }
+    .rev{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .kaufen-left{
+        justify-content: center;
+    }
+    #katzenlaufrad {
+        padding: 55px 0;
+    }
+    #kaufen {
+        margin-top: 0;
+        margin-bottom: 50px ;
+    }
+    #beispiel{
+        padding: 50px 0;
+    }
+    #katzenlaufrad-btm {
+        padding-bottom: 50px;
+    }
+    .natur-box-all {
+        margin-top: 65px;
+    }
+    
+    
+
+}
